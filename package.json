@@ -1,0 +1,39 @@
+{
+  "name": "generator-codemod",
+  "version": "0.0.0",
+  "description": "Scaffold a jscodeshift codemod",
+  "homepage": "github.com/jamestalmage/generator-codemod",
+  "author": {
+    "name": "James Talmage",
+    "email": "james@talmage.io",
+    "url": "github.com/jamestalmage"
+  },
+  "files": [
+    "generators"
+  ],
+  "main": "generators/index.js",
+  "keywords": [
+    "codemod",
+    "jscodeshift",
+    "yeoman-generator"
+  ],
+  "dependencies": {
+    "camelcase": "^2.1.1",
+    "underscore.string": "^3.3.4",
+    "yeoman-generator": "^0.22.0"
+  },
+  "devDependencies": {
+    "ava": "^0.14.0",
+    "xo": "^0.14.0",
+    "yeoman-assert": "^2.0.0",
+    "yeoman-test": "^1.0.0"
+  },
+  "xo": {
+    "ignore": "generators/**/templates/**"
+  },
+  "repository": "jamestalmage/generator-codemod",
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "license": "MIT"
+}
