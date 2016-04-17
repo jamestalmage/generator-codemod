@@ -1,6 +1,6 @@
 {
   "name": "generator-codemod",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Scaffold a jscodeshift codemod",
   "homepage": "github.com/jamestalmage/generator-codemod",
   "author": {
