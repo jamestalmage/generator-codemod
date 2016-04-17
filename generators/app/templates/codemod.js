@@ -13,5 +13,8 @@ module.exports = function <%= camelName %>(file, api) {
 		p.get('callee').replace(j.identifier('bar'));
 	});
 
-	return ast.toSource();
+	return ast.toSource({
+		useTabs: true,
+		quote: 'single'
+	});
 };
