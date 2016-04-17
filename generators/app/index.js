@@ -9,7 +9,7 @@ module.exports = yeoman.Base.extend({
 
 		var prompts = [{
 			name: 'filename',
-			message: 'Enter the foler/filename',
+			message: 'Specify a folder/filename',
 			default: 'lib/my-codemod'
 		}];
 
