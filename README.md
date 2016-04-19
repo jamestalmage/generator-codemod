@@ -1,27 +1,27 @@
 # generator-codemod [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
+
 > Scaffold a jscodeshift codemod
 
 Creates a scaffold for a [`jscodeshift`](https://github.com/facebook/jscodeshift) based codemod in the current project.
 
 
-## Installation
+## Install
 
-```bash
-npm install -g yo
-npm install -g generator-codemod
+```console
+$ npm install -g yo generator-codemod
 ```
 
 
-## Run It
+## Usage
 
-```bash
-yo codemod
+```console
+$ yo codemod
 ```
 
 
 ## License
 
-MIT © [James Talmage](github.com/jamestalmage)
+MIT © [James Talmage](https://github.com/jamestalmage)
 
 
 [travis-image]: https://travis-ci.org/jamestalmage/generator-codemod.svg?branch=master
